@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'PPUserKit'
-  s.version          = '0.1.1'
+  s.version          = '0.1.2'
   s.summary          = 'A short description of PPUserKit.'
 
 # This description is used to generate tags and improve search results.
@@ -42,4 +42,5 @@ TODO: Add long description of the pod here.
   s.dependency 'Masonry'
   s.dependency 'PPAPIsKit'
   s.dependency 'PPCategoryKit'
+  s.dependency 'PPMediatorKit'
 end

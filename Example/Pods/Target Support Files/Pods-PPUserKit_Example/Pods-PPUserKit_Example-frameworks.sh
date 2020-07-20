@@ -162,19 +162,23 @@ strip_invalid_archs() {
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework "${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/CTMediator/CTMediator.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/MJRefresh/MJRefresh.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/PPAPIsKit/PPAPIsKit.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/PPCategoryKit/PPCategoryKit.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/PPMediatorKit/PPMediatorKit.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/PPUserKit/PPUserKit.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework "${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/CTMediator/CTMediator.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/MJRefresh/MJRefresh.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/PPAPIsKit/PPAPIsKit.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/PPCategoryKit/PPCategoryKit.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/PPMediatorKit/PPMediatorKit.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/PPUserKit/PPUserKit.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework"
 fi

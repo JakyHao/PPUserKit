@@ -6,7 +6,7 @@
 //
 
 #import "PPUserMainPageViewController.h"
-
+#import <PPMediatorKit/CTMediator+PPNoteKitMediator.h>
 @interface PPUserMainPageViewController ()
 
 @end
@@ -17,6 +17,11 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     self.view.backgroundColor = [UIColor cyanColor];
+}
+
+- (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
+    
+    [[CTMediator sharedInstance] pp_getNoteMainViewController];
 }
 
 /*
