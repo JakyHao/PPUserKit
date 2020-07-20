@@ -42,5 +42,5 @@ TODO: Add long description of the pod here.
   s.dependency 'Masonry'
   s.dependency 'PPAPIsKit'
   s.dependency 'PPCategoryKit'
-  s.dependency 'PPMediatorKit'
+  s.dependency 'PPMediatorKit', '~> 0.1.1'
 end
