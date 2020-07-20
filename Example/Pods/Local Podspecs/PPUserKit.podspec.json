@@ -1,0 +1,33 @@
+{
+  "name": "PPUserKit",
+  "version": "0.1.0",
+  "summary": "A short description of PPUserKit.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/JakyHao/PPUserKit",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "haopf@rgnet.cn": "haopf@rgnet.cn"
+  },
+  "source": {
+    "git": "https://github.com/JakyHao/PPUserKit.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "PPUserKit/Classes/**/*",
+  "dependencies": {
+    "Masonry": [
+
+    ],
+    "PPAPIsKit": [
+
+    ],
+    "PPCategoryKit": [
+
+    ]
+  }
+}

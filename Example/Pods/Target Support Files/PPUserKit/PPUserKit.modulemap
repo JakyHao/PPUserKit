@@ -1,0 +1,6 @@
+framework module PPUserKit {
+  umbrella header "PPUserKit-umbrella.h"
+
+  export *
+  module * { export * }
+}

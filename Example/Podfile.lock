@@ -1,0 +1,61 @@
+PODS:
+  - AFNetworking (3.2.1):
+    - AFNetworking/NSURLSession (= 3.2.1)
+    - AFNetworking/Reachability (= 3.2.1)
+    - AFNetworking/Security (= 3.2.1)
+    - AFNetworking/Serialization (= 3.2.1)
+    - AFNetworking/UIKit (= 3.2.1)
+  - AFNetworking/NSURLSession (3.2.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.2.1)
+  - AFNetworking/Security (3.2.1)
+  - AFNetworking/Serialization (3.2.1)
+  - AFNetworking/UIKit (3.2.1):
+    - AFNetworking/NSURLSession
+  - Masonry (1.1.0)
+  - MJRefresh (3.4.3)
+  - PPAPIsKit (0.1.0):
+    - AFNetworking
+  - PPCategoryKit (0.2.0):
+    - MJRefresh
+    - SDWebImage
+  - PPUserKit (0.1.0):
+    - Masonry
+    - PPAPIsKit
+    - PPCategoryKit
+  - SDWebImage (5.8.4):
+    - SDWebImage/Core (= 5.8.4)
+  - SDWebImage/Core (5.8.4)
+
+DEPENDENCIES:
+  - PPUserKit (from `../`)
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - AFNetworking
+    - MJRefresh
+    - SDWebImage
+  https://github.com/JakyHao/PPSpecs.git:
+    - PPAPIsKit
+    - PPCategoryKit
+  trunk:
+    - Masonry
+
+EXTERNAL SOURCES:
+  PPUserKit:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  MJRefresh: 53e3e3219f204425ee6d3e62e8733d3295944cd6
+  PPAPIsKit: 4947411d05d86c0f81c04ecac3552d5c7b33ed02
+  PPCategoryKit: edd15f47eb25ba82ce229433674ec8a67f8733ec
+  PPUserKit: fa9011a9dee9c07b86ecab104d6f650d650ae6c5
+  SDWebImage: cf6922231e95550934da2ada0f20f2becf2ceba9
+
+PODFILE CHECKSUM: e24d667f8b11ac3a455582060d3c46262f23e1af
+
+COCOAPODS: 1.8.4
