@@ -22,9 +22,9 @@ PODS:
   - PPCategoryKit (0.2.0):
     - MJRefresh
     - SDWebImage
-  - PPMediatorKit (0.1.0):
+  - PPMediatorKit (0.1.2):
     - CTMediator
-  - PPUserKit (0.1.2):
+  - PPUserKit (0.1.4):
     - Masonry
     - PPAPIsKit
     - PPCategoryKit
@@ -60,8 +60,8 @@ SPEC CHECKSUMS:
   MJRefresh: 53e3e3219f204425ee6d3e62e8733d3295944cd6
   PPAPIsKit: 4947411d05d86c0f81c04ecac3552d5c7b33ed02
   PPCategoryKit: edd15f47eb25ba82ce229433674ec8a67f8733ec
-  PPMediatorKit: 440c5eb367cd8ea5325ef677df9bcac95d29e86b
-  PPUserKit: dd6f234a973fc2c53a38c41f21aca66c03bb788f
+  PPMediatorKit: bbec65a3a16225b9df6b53ba7f5868d8cfe9dfff
+  PPUserKit: 6eb86950d8b9cbe48c1e136dc0938f4944a7d98a
   SDWebImage: cf6922231e95550934da2ada0f20f2becf2ceba9
 
 PODFILE CHECKSUM: e24d667f8b11ac3a455582060d3c46262f23e1af

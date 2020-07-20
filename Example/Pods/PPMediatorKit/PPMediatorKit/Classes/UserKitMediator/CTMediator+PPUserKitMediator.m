@@ -11,7 +11,7 @@
 
 - (UIViewController *)pp_getUserMainController {
     
-    return [self performTarget:@"UserKit" action:@"getMainController" params:nil shouldCacheTarget:NO];
+    return [self performTarget:@"UserKit" action:@"getMainViewController" params:nil shouldCacheTarget:NO];
 }
 
 @end
