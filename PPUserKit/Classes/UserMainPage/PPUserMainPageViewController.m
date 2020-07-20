@@ -21,7 +21,9 @@
 
 - (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
     
-    [[CTMediator sharedInstance] pp_getNoteMainViewController];
+    UIViewController *ctl = [[CTMediator sharedInstance] pp_getNoteMainViewController];
+    [self presentViewController:ctl animated:true
+                     completion:nil];
 }
 
 /*
