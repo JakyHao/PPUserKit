@@ -10,6 +10,7 @@
 #endif
 #endif
 
+#import "Target_UserKit.h"
 #import "PPUserMainPageViewController.h"
 
 FOUNDATION_EXPORT double PPUserKitVersionNumber;
